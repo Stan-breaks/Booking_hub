@@ -1,0 +1,13 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "This a backend web server for bookinghub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "stan-breaks",
+  "license": "ISC"
+}
