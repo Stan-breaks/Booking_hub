@@ -14,9 +14,10 @@ const bookingSchema = new mongoose.Schema({
   slotStartTime: { type: Date, required: true },
   status: {
     type: String,
-    enum: ['booked', 'canceled'],
-    default: 'booked',
+    enum: ["booked", "canceled"],
+    default: "booked",
   },
-  createdAt: { type: Date, default: Date.now },});
+  createdAt: { type: Date, default: Date.now },
+});
 
 module.exports = mongoose.model("Booking", bookingSchema);

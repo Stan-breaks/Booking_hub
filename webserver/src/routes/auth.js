@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const User = require("../database/models/User");
+const User = require("../database/schemas/User");
 const { hashPassword, comparePassword } = require("../utils/helper");
 
 router.post("/register", async (req, res) => {
